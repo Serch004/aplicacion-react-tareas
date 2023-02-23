@@ -28,3 +28,10 @@
   height: 25px;
   margin: 5px;
 }
+
+/* Icono */
+
+.tarea-contenedor.completada {
+  background-color: #5a10a7;
+  text-decoration: line-through;
+}
