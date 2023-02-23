@@ -1,6 +1,7 @@
 import React from 'react';
+import '../hojas-de-estilo/Tarea.css';
 
-function Tarea(){
+function Tarea({ texto }){
  return (
   <div className='tarea-contenedor'>
     <div className='tarea-texto'>
