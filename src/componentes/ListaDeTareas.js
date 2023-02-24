@@ -7,7 +7,7 @@ function ListaDeTareas(){
 
   const [tareas, setTareas] = useState([]);
 
-  const agrgarTarea = tarea =>{
+  const agregarTarea = tarea =>{
     console.log("tarea agregada");
     console.log(tarea);
   }
@@ -15,7 +15,7 @@ function ListaDeTareas(){
 
   return (
     <>
-      <TareaFormulario />
+      <TareaFormulario onSubmit={agregarTarea} />
       <div className='tareas-lista-contenedor'>
         {
           tareas.map((tarea) =>
