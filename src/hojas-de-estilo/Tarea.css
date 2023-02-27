@@ -45,7 +45,17 @@
 
 /* Icono */
 
-.tarea-contenedor.completada {
+.tarea-contenedor.completada:nth-child(3n + 1) {
+  background-color: #1b0101;
+  text-decoration: line-through;
+}
+
+.tarea-contenedor.completada:nth-child(3n + 2) {
+  background-color: #550404;
+  text-decoration: line-through;
+}
+
+.tarea-contenedor.completada:nth-child(3n + 3) {
   background-color: #a60606;
   text-decoration: line-through;
 }
