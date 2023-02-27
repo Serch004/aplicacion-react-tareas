@@ -12,6 +12,20 @@
   cursor: pointer;
 }
 
+/* colores */
+
+.tarea-contenedor:nth-child(3n + 1) {
+  background-color: #011d24;
+}
+
+.tarea-contenedor:nth-child(3n + 2) {
+  background-color: #023a47;
+}
+
+.tarea-contenedor:nth-child(3n + 3) {
+  background-color: #066880;
+}
+
 /* Texto */
 .tarea-texto {
   width: 100%;

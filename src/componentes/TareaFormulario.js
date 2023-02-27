@@ -12,7 +12,7 @@ function TareaFormulario (props){
 
   const manejarEnvio = e => {
     e.preventDefault();
-    
+
     const tareaNueva = {
       id: uuidv4(),
       texto: input,
